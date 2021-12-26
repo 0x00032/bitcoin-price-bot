@@ -1,0 +1,26 @@
+{
+  "name": "bitcoin-tracker",
+  "version": "4.2.0",
+  "description": "Another Price Tracking Discord Bot",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0x00032/btc-tracker.git"
+  },
+  "author": "diverse#9999",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/0x00032/btc-tracker/issues"
+  },
+  "homepage": "https://github.com/0x00032/btc-tracker#readme",
+  "dependencies": {
+    "discord-reply": "^0.1.2",
+    "discord.js": "^12.5.3",
+    "fs-extra": "^10.0.0",
+    "got": "^11.8.3"
+  }
+}
